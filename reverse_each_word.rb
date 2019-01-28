@@ -8,14 +8,5 @@ def reverse_each_word(string)
     new_string.join(" ")
     new_string
             end
-  
-  
-  
-end
 
-def reverse_each_word_uses_collect(string)
-  a = string.split(" ")
-  b = a.collect do |x| x.reverse end
-  c = b.join(" ")
-  c
 end
